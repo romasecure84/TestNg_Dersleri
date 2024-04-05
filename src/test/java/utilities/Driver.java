@@ -8,6 +8,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.time.Duration;
 
 public class Driver {
+    private Driver(){
+        //Bu veziyyetde bos private Driver yaradaraq Driverin obyekte teyin edilebilmesinin qarsisini ala bilerik
+    }
     static WebDriver driver;
 
     public static WebDriver getDriver(){
