@@ -6,7 +6,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 public class C06_SmokePositiveTest {
-    @Test
+    @Test(groups = "qrup1")
     public void positiveTest() {
         BrcPage brcPage=new BrcPage();
         //https://www.bluerentalcars.com/ adresine gedin

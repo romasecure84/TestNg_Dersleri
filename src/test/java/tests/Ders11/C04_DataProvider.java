@@ -14,7 +14,7 @@ public class C04_DataProvider {
         return new Object[][]{{"java"},{"selenium"},{"samsung"},{"iphone"}};
     }
 
-    @Test(dataProvider = "axtarilacaqKelmeler")
+    @Test(dataProvider = "axtarilacaqKelmeler", groups = "qrup1")
     public void test(String kelmeler) {
         AmazonPage amazonPage=new AmazonPage();
         //amazon sehifesine gedin

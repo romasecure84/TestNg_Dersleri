@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="istenilen qruplari isletmek">
+    <test name="qruplar">
+        <groups>
+            <run>
+                <include name="qrup1"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="tests.Ders10"></package>
+            <package name="tests.Ders11"></package>
+        </packages>
+    </test>
+</suite>

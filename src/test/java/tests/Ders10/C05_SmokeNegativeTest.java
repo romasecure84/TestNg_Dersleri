@@ -23,7 +23,7 @@ public class C05_SmokeNegativeTest {
         Driver.closeDriver();
     }
 
-    @Test
+    @Test(groups = "qrup1")
     public void sehvPassword() throws InterruptedException {
         AloTechPage aloTechPage=new AloTechPage();
         //https://demo1.alo-tech.com adresine gedin
