@@ -7,8 +7,9 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import utilities.TestBaseBeforeMethodAfterMethod;
+import utilities.TestBaseCross;
 
-public class C06_SoftAssert extends TestBaseBeforeMethodAfterMethod {
+public class C06_SoftAssert extends TestBaseCross {
     @Test
     public void test() throws InterruptedException {
         SoftAssert softAssert=new SoftAssert();

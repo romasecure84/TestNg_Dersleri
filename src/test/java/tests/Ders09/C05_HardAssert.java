@@ -6,8 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import utilities.TestBaseBeforeMethodAfterMethod;
+import utilities.TestBaseCross;
 
-public class C05_HardAssert extends TestBaseBeforeMethodAfterMethod {
+public class C05_HardAssert extends TestBaseCross {
     @Test
     public void test() throws InterruptedException {
         //amazon sehifesine gedin

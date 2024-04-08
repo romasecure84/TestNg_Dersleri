@@ -16,7 +16,7 @@ public class CrossDriver {
     public static WebDriver getDriver(String browser){
         browser=browser==null ? ConfigReader.getProperty("browser"):browser;
         if (driver==null){
-            switch (ConfigReader.getProperty("browser")){
+            switch (browser){
                 case  "chrome":
                     driver=new ChromeDriver();
                     break;
