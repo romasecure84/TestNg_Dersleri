@@ -1,5 +1,7 @@
 package utilities;
 
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -31,7 +33,8 @@ public class Driver {
                     driver=new ChromeDriver();
             }
 
-            driver.manage().window().maximize();
+            driver.manage().window().setSize(new Dimension(1382, 744));
+            driver.manage().window().setPosition(new Point(1912, 303));
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         }
         return driver;
